@@ -48,6 +48,7 @@ class Song
     res = song.name.split(' - ')
     song.name = res[-1].chomp('.mp3')
     song.artist_name = res[0]
+    song
   end
   
 end
