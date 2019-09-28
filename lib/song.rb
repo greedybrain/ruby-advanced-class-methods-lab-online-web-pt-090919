@@ -40,10 +40,9 @@ class Song
   end
   
   def self.alphabetical 
-    @@all = @@all.sort_by do |a, b|
+    @@all.sort_by do |a, b|
       a <=> b 
     end
-    @@all
   end
   
 end
